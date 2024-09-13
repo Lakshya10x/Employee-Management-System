@@ -3,7 +3,7 @@ package com.company.management.custom.exception;
 import org.springframework.stereotype.Component;
 
 @Component
-public class ControllerException extends RuntimeException{
+public class EmptyInputException extends RuntimeException{
 
 	/**
 	 * 
@@ -26,12 +26,12 @@ public class ControllerException extends RuntimeException{
 	public static long getSerialversionuid() {
 		return serialVersionUID;
 	}
-	public ControllerException(String errorCode, String description) {
+	public EmptyInputException(String errorCode, String description) {
 		super();
 		this.errorCode = errorCode;
 		this.description = description;
 	} 
-	public ControllerException ()
+	public EmptyInputException ()
 	{
 		
 	}
