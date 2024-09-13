@@ -31,11 +31,11 @@ This Spring Boot application provides a RESTful API for managing employee inform
 
 ### Employee CRUD Operations
 
-- **GET /employees**: Retrieve a list of all employees.
-- **GET /employees/{id}**: Retrieve a specific employee by ID.
-- **POST /employees**: Create a new employee.
-- **PUT /employees/{id}**: Update an existing employee.
-- **DELETE /employees/{id}**: Delete an employee.
+- **GET /emp/all**: Retrieve a list of all employees.
+- **GET /emp/{id}**: Retrieve a specific employee by ID.
+- **POST /emp/add**: Create a new employee.
+- **PUT /emp/updateEmp**: Update an existing employee.
+- **DELETE /emp/delete/{id}**: Delete an employee.
 ---
 ## Custom Exception Handling
 
