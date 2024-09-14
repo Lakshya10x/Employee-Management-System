@@ -1,0 +1,7 @@
+# Global Exception Handling Description :
+	• Create another package & create a global class annotated with @ControllerAdvice -> That is capable enough to handle our exceptions global
+	(In custom exception handling, whether it is service or controller, at the end the parent is controller so all the exceptions are required to be handled at controller level)
+	• This global exception handling is more efficient (Not writing several try-catch blocks for each controller methods ) & descriptive than custom exception handling
+	• Global exception handling's controller code will reduced as compared to custom exception handling, coz we are not using try-catch, throw ,etc (Repetitive code will reduced)
+	• But why custom exception handling, there might be a case that not all controllers are going to handle the same type of exception 
+  & if you have something which is common then go for global exception handling
